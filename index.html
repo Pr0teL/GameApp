@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GaMe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+</head>
+<script src="lazy-line-painter-1.9.6.min.js"></script>
+     <script type="text/javascript">
+         (function() {
+
+             document.onreadystatechange = () => {
+
+                 if (document.readyState === 'complete') {
+
+                     /**
+                      * Setup your Lazy Line element.
+                      * see README file for more settings
+                      */
+
+                     let el = document.querySelector('#cat');
+                     let myAnimation = new LazyLinePainter(el, {
+                         "ease": "easeLinear",
+                         "strokeWidth": 5.8,
+                         "strokeOpacity": 1,
+                         "strokeColor": "#FFF",
+                         "strokeCap": "round"
+                     });
+                     myAnimation.paint();
+                 }
+             }
+
+         })();
+
+     </script>
+<body>
+  <div id="modal-load">
+  <p>PR0TEL</p>
+   <svg version="1.1" id="cat" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 491.258 491.258" style="enable-background:new 0 0 491.258 491.258;" xml:space="preserve" data-llp-composed="true" class="lazy-line-painter">
+         <g>
+             <path style="fill: rgb(87, 86, 92); stroke-linecap: round; stroke-linejoin: round;" d="M245.521,395.096l-38.425,23.535l-20.893-34.11l39.426-24.148v-28.796h20V79.948&#10;&#9;&#9;c-31.034,0-61.775,6.859-89.711,19.933L34.082,0v279.711c0,116.647,94.899,211.547,211.547,211.547v-96.094L245.521,395.096z&#10;&#9;&#9; M119.672,256.201l9.117-38.947l96.611,22.615v61.859h-40v-30.141L119.672,256.201z" data-llp-id="cat-0" data-llp-duration="1500" data-llp-delay="0" fill-opacity="1" data-llp-stroke-join="round" data-llp-stroke-cap="round" />
+             <path style="fill: rgb(62, 61, 66); stroke-linecap: round; stroke-linejoin: round;" d="M335.34,99.882c-27.936-13.074-58.677-19.933-89.711-19.933v251.628h20v28.917l38.583,24.125&#10;&#9;&#9;l-21.207,33.916l-37.376-23.37v96.094c116.647,0,211.547-94.9,211.547-211.547V0L335.34,99.882z M305.857,271.586v30.141h-40&#10;&#9;&#9;v-61.859l96.611-22.615l9.117,38.947L305.857,271.586z" data-llp-id="cat(2)-1" data-llp-duration="1500" data-llp-delay="0" fill-opacity="1" data-llp-stroke-join="round" data-llp-stroke-cap="round" />
+             <polygon style="fill: rgb(29, 29, 31); stroke-linecap: round; stroke-linejoin: round;" points="225.4,301.727 225.4,239.868 128.789,217.253 119.672,256.201 185.4,271.586 185.4,301.727 &#10;&#9;&#9;&#9;" data-llp-id="cat-2" data-llp-duration="1500" data-llp-delay="0" fill-opacity="1" data-llp-stroke-join="round" data-llp-stroke-cap="round" />
+             <polygon style="fill: rgb(29, 29, 31); stroke-linecap: round; stroke-linejoin: round;" points="265.857,239.868 265.857,301.727 305.857,301.727 305.857,271.586 371.586,256.201 &#10;&#9;&#9;362.469,217.253 &#9;" data-llp-id="cat-3" data-llp-duration="1500" data-llp-delay="0" fill-opacity="1" data-llp-stroke-join="round" data-llp-stroke-cap="round" />
+             <polygon style="fill: rgb(29, 29, 31); stroke-linecap: round; stroke-linejoin: round;" points="225.629,360.373 186.203,384.521 207.096,418.631 245.521,395.096 245.629,395.164 &#10;&#9;&#9;283.005,418.534 304.212,384.618 265.629,360.494 265.629,331.576 225.629,331.576 &#9;" data-llp-id="cat-4" data-llp-duration="1500" data-llp-delay="0" fill-opacity="1" data-llp-stroke-join="round" data-llp-stroke-cap="round" />
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+     </svg>
+     </div>
+    <div id="zone">
+        <div id="pl">
+            <p id="score">0</p>
+        </div>
+        <div id="bon">
+
+        </div>
+        <p id="taimer"></p>
+    </div>
+    <div class="wasd">
+         <div class="btn" id="W">
+         W
+         </div>
+         <div class="str">
+         <div class="btn" id="A">
+         A
+         </div>
+         <div class="btn" id="S">
+         S
+         </div>
+         <div class="btn" id="D">
+         D
+         </div>
+         </div>
+     </div>
+<script>
+
+
+</script>
+    <script type="text/javascript" src="script.js"></script>
+   <script>
+    require('./render.js')
+    </script>
+</body>
+</html>
