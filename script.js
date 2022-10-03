@@ -156,7 +156,7 @@ function countdown(){  // функция обратного отсчета
     document.querySelector('.wasd').style.display = 'none';
     document.querySelector('#cat').style.display = 'none';
     document.querySelector('#taimer').style.opacity = 'block';
-    document.querySelector('#modal-load p').innerHTML = "SCORE <br>" + score;
+    document.querySelector('#modal-load p').innerHTML = "SCORE <br>" + score + ' <a href="index.html" id="rest">Again</a>' ;
   }
   else {
     timer = setTimeout(countdown, 1000);
